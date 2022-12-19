@@ -16,6 +16,7 @@ import { SearchPostResultComponent } from './component/search-post-result/search
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { PostsByCategoryComponent } from './component/posts-by-category/posts-by-category.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +29,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     AddcommentComponent,
     SigninComponent,
     SignupComponent,
-    SearchPostResultComponent
+    SearchPostResultComponent,
+    PostsByCategoryComponent
   ],
   imports: [
     BrowserModule,

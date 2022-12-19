@@ -3,12 +3,11 @@ import { Router } from '@angular/router';
 import { PostService } from 'src/app/service/post.service';
 
 @Component({
-  selector: 'app-postlist',
-  templateUrl: './postlist.component.html',
-  styleUrls: ['./postlist.component.css']
+  selector: 'app-posts-by-category',
+  templateUrl: './posts-by-category.component.html',
+  styleUrls: ['./posts-by-category.component.css']
 })
-export class PostlistComponent {
-  currentDate = new Date();
+export class PostsByCategoryComponent {
 
   constructor(private postService:PostService, private router:Router) { }
 
@@ -25,6 +24,4 @@ posts:any;
     );
 
   }
-
-
 }
