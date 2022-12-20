@@ -17,6 +17,11 @@ const routes: Routes = [
    
  },
  {
+  path:'posts',
+  component:PostlistComponent,
+  
+},
+ {
   path:'single-post',
   component:SinglepostComponent
 },
